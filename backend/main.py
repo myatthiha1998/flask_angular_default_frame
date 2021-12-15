@@ -9,12 +9,12 @@ app.wsgi_app = ProxyFix(app.wsgi_app)
 
 @app.route('/')
 def hello_world():
-    return 'Welcome From Ojt-App'
+    return 'Angular Flask Frame Work'
 
 
 @app.route('/home')
 def home():
-    return 'Welcome From Dott Team'
+    return 'Angular Flask Frame Work'
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080, debug=True)
